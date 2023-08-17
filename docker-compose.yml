@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  dataBase:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=APICars
+    ports:
+      - 8080:5432     
