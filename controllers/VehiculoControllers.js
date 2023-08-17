@@ -62,7 +62,9 @@ const obtener_vehiculos = async (req, res) => {
     }
   };
 
-
-
-module.exports = {obtener_vehiculos, obtener_vehiculos_id, crear_vehiculo, eliminar_vehiculo, actualizar_vehiculo}
+module.exports = {obtener_vehiculos, 
+  obtener_vehiculos_id, 
+  crear_vehiculo, 
+  eliminar_vehiculo, 
+  actualizar_vehiculo}
   
