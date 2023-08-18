@@ -22,7 +22,7 @@ describe('obtener_vehiculos', () => {
     await obtener_vehiculos({}, res);
 
     // Verifica que la función execute de la base de datos se llamó con la consulta correcta
-    expect(db.execute).toHaveBeenCalledWith('SELECT * FROM Vehiculo');
+    expect(db.execute).toHaveBeenCalledWith('I GJGHF * FROM Vehiculo');
 
     // Verifica que el método json del objeto de respuesta se llamó con los datos simulados
     expect(mockJson).toHaveBeenCalledWith(mockResult.rows);
